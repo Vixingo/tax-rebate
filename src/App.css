@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    color: unset;
+    text-decoration: unset;
+}
+a:hover {
+    color: unset;
+}
 .Navbar {
     background-color: #414141;
     border-bottom: 1px solid #03a63c;
@@ -12,15 +19,92 @@
     width: 25rem;
     opacity: 0.7;
 }
-/* Home */
-.Home {
+/* Hero */
+.Hero {
     padding: 160px 0;
     background-image: linear-gradient(135deg, rgba(242, 116, 5, 0.1), #fff);
+    border-bottom: 1px solid #03a63c;
 }
-.Home ul {
+.Hero ul {
     margin: 24px 0;
 }
-.Home ul li {
+.Hero ul li {
     margin-bottom: 0.5rem;
     color: #414141;
+    font-weight: 300;
+}
+/* NotSold */
+.NotSold {
+    padding: 112px 0;
+    border-bottom: 1px solid #03a63c;
+    background-color: #f27405;
+}
+/* ActNow */
+.ActNow {
+    border-bottom: 1px solid #03a63c;
+    padding: 160px 0;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 0.7)),
+            to(rgba(0, 0, 0, 0.7))
+        ),
+        url("./img/restaurant-bg.jpg");
+    background-image: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+        url("./img/restaurant-bg.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+/* Begin */
+.Begin {
+    padding: 112px 0;
+    border-bottom: 1px solid #03a63c;
+}
+/* ERC */
+.ERC {
+    background-color: #ebebeb;
+    padding: 112px 0;
+    border-bottom: 1px solid #03a63c;
+}
+/* Qualify */
+.Qualify {
+    border-bottom: 1px solid #03a63c;
+    padding: 160px 0;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 0.7)),
+            to(rgba(0, 0, 0, 0.7))
+        ),
+        url("./img/truck-highway-bg.jpg");
+    background-image: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+        url("./img/truck-highway-bg.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+/* FAQ */
+.FAQ {
+    background-color: #e9f7ee;
+    padding: 112px 0;
+    border-bottom: 1px solid #03a63c;
+}
+/* Footer */
+.Footer {
+    padding: 80px 0;
+    border-bottom: 1px solid #03a63c;
+    background-color: #414141;
 }
